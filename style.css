@@ -1,0 +1,24 @@
+<Style>
+
+p {
+     font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+}
+
+
+
+
+img {
+width: 590px;
+height: 830px;
+gap: 0px;
+border-radius: 0px 200px 200px 0px;
+opacity: 0px;
+
+}
+</Style>
