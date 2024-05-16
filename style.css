@@ -1,24 +1,111 @@
-<Style>
-
-p {
-     font-family: Poppins;
+.osr {
+    font-family: Poppins;
     font-size: 40px;
     font-weight: 600;
     line-height: 64px;
     letter-spacing: 0.02em;
     text-align: left;
-    
+
+
 }
 
+.humn {
+    width: Hug (681px)px;
+    height: Hug (128px)px;
+    top: 32px;
+    left: 887px;
+    padding: 32px 64px 32px 64px;
+    gap: 32px;
+    border-radius: 9999px 0px 0px 0px;
+    opacity: 0px;
+    background: linear-gradient(100.12deg, #F7F9FE 0%, #FBFCFF 100%);
+
+
+
+}
+
+
+
+
+
+.fgot {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    color: #23155B;
+    width: 481px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.hatp {
+    width: 40px;
+    height: 60.47px;
+
+}
+
+
+.gost {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    width: Fixed (425.28px)px;
+    height: Hug (263px)px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+.hotz {
+    width: 104px;
+    height: 119px;
+    padding: 0px 0.81px 0.52px 0px;
+    gap: 0px;
+    opacity: 0px;
+
+
+
+
+}
+
+
+
+
+.post {
+    width: Fixed (840px)px;
+    height: Hug (575px)px;
+    padding: 0px 0px 0px 260px;
+    gap: 52px;
+    opacity: 0px;
+    color: #23155B;
+
+
+}
 
 
 
 img {
-width: 590px;
-height: 830px;
-gap: 0px;
-border-radius: 0px 200px 200px 0px;
-opacity: 0px;
+    width: 590px;
+    height: 830px;
+    gap: 0px;
+    border-radius: 0px 200px 200px 0px;
+    opacity: 0px;
 
 }
-</Style>
+
+div {
+    width: 1600px;
+    height: 1200px;
+    top: -2704px;
+    left: -3409px;
+    gap: 0px;
+    opacity: 0px;
+}
