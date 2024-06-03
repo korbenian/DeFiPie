@@ -1,39 +1,47 @@
 body {
     background-color: #FFFFFF;
-    position: relative;
-    width: 1600px;
+    width: 1200px;
     height: 1200px;
+    top: -2704px;
+    left: -3409px;
+    gap: 0px;
+    opacity: 0px;
     background: #FFFFFF;
     min-height: 100vh;
     margin: 0px;
-    padding: 0px;
+
 }
 
 .logo {
     display: flex;
     flex-direction: row;
+
     align-items: center;
     padding: 4px 8px;
     gap: 0px;
-    position: absolute;
-    width: 681px;
+    width: 651px;
     height: 128px;
     left: 887px;
     top: 32px;
     background: linear-gradient(100.12deg, #F7F9FE 0%, #FBFCFF 100%);
     border-radius: 9999px;
+    margin-top: 30px;
+    margin-left: 825px;
 }
 
 .foto-logo {
     width: 40px;
     height: 60.47px;
     display: flex;
+    flex-basis: 50%;
     flex: none;
     order: 0;
     flex-grow: 0;
     display: flex;
     align-items: center;
     margin-left: 55px;
+
+
 }
 
 
@@ -51,6 +59,7 @@ body {
     order: 1;
     flex-grow: 0;
     display: flex;
+    white-space: nowrap;
     align-items: center;
     padding: 20px;
     margin-left: 15px;
@@ -61,24 +70,25 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    position: absolute;
-    width: 1920px;
+    width: 1620px;
     height: 830px;
     left: 0px;
     top: 185px;
     background-image: url(img/defipielogobg.svg);
     background-repeat: no-repeat;
+    background-position: 23%;
 }
 
 
 
-.fotocod {
-    position: absolute;
+.mainphoto {
     width: 590px;
     height: 830px;
     left: 0px;
     top: 0px;
     background: url(image.png);
+    display: flex;
+    margin-top: 635px;
     mix-blend-mode: normal;
     gap: 0px;
     border-radius: 0px 200px 200px 0px;
@@ -108,7 +118,7 @@ body {
     z-index: 2;
 }
 
-.framebo {
+.logotitle {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -120,9 +130,12 @@ body {
     order: 2;
     flex-grow: 0;
     z-index: 2;
+    position: relative;
+    bottom: 700px;
+    right: 77px;
 }
 
-.group {
+.logotipe {
     width: 103.19px;
     height: 118.48px;
     top: 0px;
@@ -131,6 +144,8 @@ body {
     display: flex;
     margin-left: 325px;
 }
+
+
 
 .brought {
     list-style: Titles/H2;
@@ -156,6 +171,11 @@ body {
     margin-left: 120px;
 }
 
+.firsttext {
+    margin-bottom: 17px;
+}
+
+
 .brought2 {
     list-style: Titles/H2;
     font-family: "Poppins", sans-serif;
@@ -169,10 +189,9 @@ body {
     margin-left: 120px;
 }
 
-.texta {
+.maintext {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0px 0px 0px 260px;
     gap: 52px;
     margin-left: 60px;
@@ -189,4 +208,5 @@ body {
     line-height: 28px;
     text-align: left;
     color: rgba(35, 21, 91, 1);
+
 }
