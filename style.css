@@ -1,32 +1,20 @@
 body {
-    background-color: #FFFFFF;
-    width: 1200px;
-    height: 1200px;
-    top: -2704px;
-    left: -3409px;
-    gap: 0px;
-    opacity: 0px;
-    background: #FFFFFF;
-    min-height: 100vh;
     margin: 0px;
 
 }
 
-.logo {
+.header {
     display: flex;
     flex-direction: row;
-
     align-items: center;
-    padding: 4px 8px;
-    gap: 0px;
-    width: 651px;
     height: 128px;
     left: 887px;
     top: 32px;
     background: linear-gradient(100.12deg, #F7F9FE 0%, #FBFCFF 100%);
-    border-radius: 9999px;
+    border-radius: 151px;
     margin-top: 30px;
     margin-left: 825px;
+
 }
 
 .foto-logo {
@@ -65,7 +53,7 @@ body {
     margin-left: 15px;
 }
 
-.mainpart {
+.main-part {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,7 +69,7 @@ body {
 
 
 
-.mainphoto {
+.main-photo {
     width: 590px;
     height: 830px;
     left: 0px;
@@ -103,7 +91,7 @@ body {
 }
 
 
-.textbody {
+.text-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -118,7 +106,7 @@ body {
     z-index: 2;
 }
 
-.logotitle {
+.logo-title {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -147,7 +135,7 @@ body {
 
 
 
-.brought {
+.title {
     list-style: Titles/H2;
     font-size: 52px;
     font-weight: 700;
@@ -158,7 +146,7 @@ body {
     margin-left: 200px;
 }
 
-.brought1 {
+.title1 {
     list-style: Titles/H2;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -173,10 +161,11 @@ body {
 
 .firsttext {
     margin-bottom: 17px;
+    font-family: "Poppins", sans-serif;
 }
 
 
-.brought2 {
+.title2 {
     list-style: Titles/H2;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -189,7 +178,7 @@ body {
     margin-left: 120px;
 }
 
-.maintext {
+.main-text {
     display: flex;
     flex-direction: column;
     padding: 0px 0px 0px 260px;
@@ -210,3 +199,4 @@ body {
     color: rgba(35, 21, 91, 1);
 
 }
+
