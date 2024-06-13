@@ -3,6 +3,18 @@ body {
 
 }
 
+
+.wrapper {
+    margin-left: 825px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(1000.12deg, #F7F9FE 0%, #FBFCFF 100%);
+    border-radius: 151px;
+    top: 32px;
+    margin-top: 32px;
+}
+
+
 .header {
     display: flex;
     flex-direction: row;
@@ -10,11 +22,6 @@ body {
     height: 128px;
     left: 887px;
     top: 32px;
-    background: linear-gradient(100.12deg, #F7F9FE 0%, #FBFCFF 100%);
-    border-radius: 151px;
-    margin-top: 30px;
-    margin-left: 825px;
-
 }
 
 .foto-logo {
