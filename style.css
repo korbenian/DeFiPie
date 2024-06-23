@@ -15,12 +15,12 @@ body {
 .wrap {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   align-items: center;
   padding: 0px;
   gap: 159px;
-  width: 1420px;
-  height: 68px;
+  width: 1920px;
+  height: 116px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: 250px;
-  margin-top: 40px;
+  margin-top: 20px;
   width: 202px;
   height: 116px;
 }
@@ -99,14 +99,29 @@ body {
 .second-wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
+  margin-left: 452px;
   gap: 60px;
-  margin-top: 40px;
+  margin-bottom: 15px;
   width: 416px;
   height: 48px;
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+.color-main-wrapper {
+  background-size: 1250px 596px;
+  background-position: 250px 100px;
+}
+
+.main-wrapper {
+  background-image: url(img/bg.svg);
+  border-radius: 208px;
+  background-repeat: no-repeat;
+  background-size: 1250px 596px;
+  background-position: 250px 100px;
 }
 
 .header {
@@ -201,8 +216,6 @@ body {
 }
 
 .main-body {
-  background-image: url(img/bgn.png);
-  background-repeat: no-repeat;
   gap: 0px;
   opacity: 0px;
   border-radius: 119px;
