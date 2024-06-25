@@ -12,25 +12,20 @@ body {
   margin-top: 32px;
 }
 
-.wrap {
+.logo-wrapper {
   display: flex;
   flex-direction: row;
-
   align-items: center;
-  padding: 0px;
   gap: 159px;
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   height: 116px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .wrapper-header {
   display: flex;
   align-items: center;
   margin-left: 250px;
-  margin-top: 20px;
   width: 202px;
   height: 116px;
 }
@@ -45,12 +40,14 @@ body {
   font-size: 18px;
   line-height: 40px;
   color: #23155b;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .header-first-text {
+  display: flex;
+  border: transparent;
+  background-color: rgb(255, 255, 255);
+  white-space: nowrap;
+  margin-bottom: 7px;
   width: 93px;
   height: 28px;
   font-family: 'Poppins';
@@ -59,28 +56,36 @@ body {
   font-size: 16px;
   line-height: 28px;
   color: #23155b;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .header-second-text {
-  width: 102px;
-  height: 28px;
+  display: flex;
+  border: transparent;
+  background-color: rgb(255, 255, 255);
+  white-space: nowrap;
+  width: 151px;
+  height: 36px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   color: #23155b;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+}
+
+.wrapper-main-section {
+  margin-left: 300px;
 }
 
 .header-button {
   display: flex;
   color: white;
+  border: transparent;
+  white-space: nowrap;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -90,30 +95,18 @@ body {
   height: 48px;
   background: #8053ff;
   border-radius: 8px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  border: 0;
 }
 
-.second-wrapper {
+.buttons-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   margin-left: 452px;
-  gap: 60px;
+  gap: 55px;
   margin-bottom: 15px;
   width: 416px;
   height: 48px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.color-main-wrapper {
-  background-size: 1250px 596px;
-  background-position: 250px 100px;
 }
 
 .main-wrapper {
@@ -138,9 +131,6 @@ body {
   height: 60.47px;
   display: flex;
   flex-basis: 50%;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   display: flex;
   align-items: center;
   margin-left: 55px;
@@ -156,9 +146,6 @@ body {
   line-height: 64px;
   letter-spacing: 0.02em;
   color: #23155b;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   display: flex;
   white-space: nowrap;
   align-items: center;
@@ -170,10 +157,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   width: 1620px;
   height: 830px;
-  left: 0px;
   top: 185px;
   background-image: url(img/defipielogobg.svg);
   background-repeat: no-repeat;
@@ -209,21 +194,14 @@ body {
   gap: 52px;
   width: 840px;
   height: 575px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  z-index: 2;
 }
 
-.main-body {
-  gap: 0px;
-  opacity: 0px;
-  border-radius: 119px;
+.main-section {
   width: 1500px;
   height: 700px;
 }
 
-.second-main-body-text {
+.second-section-body-text {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -234,18 +212,20 @@ body {
   color: #23155b;
 }
 
-.wrapper-main-body {
+.second-wrapper-main-section {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 170px;
+  width: 1490px;
 }
 
-.wrapper-second-main-body-text {
+.wrapper-second-main-section-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-left: 35px;
 }
 
 .button {
@@ -266,16 +246,14 @@ body {
   height: 60px;
   background: #8053ff;
   border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   border: none;
 }
 
 .wrapper-button {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 35px;
+  margin-left: 45px;
 }
 
 .second-button {
@@ -299,9 +277,10 @@ body {
   border-color: #8053ff;
 }
 
-.main-body-text {
+.main-section-text {
   font-family: 'Poppins';
   font-style: normal;
+  margin-right: 250px;
   font-weight: 700;
   font-size: 64px;
   line-height: 96px;
