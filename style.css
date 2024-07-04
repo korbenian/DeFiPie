@@ -14,47 +14,33 @@ body {
 
 .logo-wrapper {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 136px;
-  width: 100%;
-  max-width: 1920px;
   height: 116px;
+  justify-content: space-between;
 }
 
 .wrapper-header {
   display: flex;
   align-items: center;
-  margin-left: 250px;
-  width: 202px;
-  height: 116px;
 }
 
 .header-text {
   margin-left: 10px;
-  width: 130px;
-  height: 40px;
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 40px;
   color: #23155b;
 }
 
 .wrapper-first-header-button {
-  white-space: nowrap;
   display: flex;
   gap: 40px;
 }
 
 .first-header-button {
-  display: flex;
   border: transparent;
   background-color: rgb(255, 255, 255);
   white-space: nowrap;
-  margin-bottom: 7px;
   width: 93px;
   height: 28px;
   font-family: 'Poppins';
@@ -90,30 +76,13 @@ body {
 .buttons-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   align-items: center;
-  margin-left: 476px;
   gap: 55px;
-  margin-bottom: 15px;
-  width: 416px;
-  height: 48px;
-}
-
-.main-wrapper {
-  background-image: url(img/bg.svg);
-  border-radius: 208px;
-  background-repeat: no-repeat;
-  background-size: 1250px 596px;
-  background-position: 250px 100px;
 }
 
 .header {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 128px;
-  left: 887px;
-  top: 32px;
+  justify-content: center;
 }
 
 .foto-logo {
@@ -189,6 +158,9 @@ body {
 .main-section {
   width: 1500px;
   height: 700px;
+  background-image: url(img/bg.svg);
+  border-radius: 208px;
+  background-repeat: no-repeat;
 }
 
 .second-section-body-text {
@@ -366,4 +338,9 @@ body {
   line-height: 28px;
   text-align: left;
   color: rgba(35, 21, 91, 1);
+}
+
+.centered-content {
+  width: 100%;
+  max-width: 1420px;
 }
